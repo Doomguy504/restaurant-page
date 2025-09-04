@@ -1,2 +1,4 @@
 import './styles.css';
-import './home.js';
+import {generateHome} from './home.js';
+
+generateHome();
