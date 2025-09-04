@@ -10,7 +10,7 @@ const handleNavClicked = function(ev){
         contentDiv.removeChild(contentDiv.firstChild);
     }
 
-    //generate content based on text inside button clicked
+    //generate content based on text content of button clicked
     const buttonText = ev.currentTarget.textContent;
     switch (buttonText) {
         case 'Home':
