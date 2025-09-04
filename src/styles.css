@@ -28,6 +28,7 @@ nav button {
     
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     background-color: #3b3b3bcb;
     border-radius: 9px;
@@ -54,4 +55,12 @@ nav button {
 
 #content p {
     font-size: large;
+}
+
+.menu-container {
+    min-height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
 }

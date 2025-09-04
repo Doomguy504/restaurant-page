@@ -1,5 +1,7 @@
 import './styles.css';
-import {generateHome} from './home.js';
+import { generateHome } from './home.js';
+import { generateMenu } from './menu.js';
+import { generateAbout } from './about.js';
 
 generateHome();
 
@@ -17,10 +19,10 @@ const handleNavClicked = function(ev){
             generateHome();
             break;
         case 'Menu':
-            //TODO add menu generation function
+            generateMenu();
             break;
         case 'About':
-            //TODO add about generation function
+            generateAbout();
             break;
         default:
             console.error(`Error: Unhandled switch case for button with text content "${buttonText}"`);
